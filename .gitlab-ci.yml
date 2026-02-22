@@ -1,0 +1,94 @@
+# This file is a template, and might need editing before it works on your project.
+# You can copy and paste this template into a new `.gitlab-ci.yml` file.
+# You should not add this template to an existing `.gitlab-ci.yml` file by using the `include:` keyword.
+#
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/ee/development/cicd/templates.html
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Bash.gitlab-ci.yml
+
+# See https://docs.gitlab.com/ee/ci/yaml/index.html for all available options
+
+# you can delete this line if you're not using Docker
+image: eclipse-temurin:21-noble
+
+stages:
+  - validate
+  - test
+  - deploy
+
+before_script:
+  - apt update; apt install -y git
+  - if [ -z "$CI_MERGE_REQUEST_TARGET_BRANCH_NAME" ]
+  - then export FILES=($(git diff-tree --no-commit-id --name-only -r $CI_COMMIT_SHA | grep '^src/.*\.lua$'))
+  - else git fetch origin $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+  - export FILES=($(git diff --name-only $CI_MERGE_REQUEST_TARGET_BRANCH_NAME...$CI_COMMIT_SHA | grep '^src/.*\.lua$'))
+  - fi
+
+download:
+    stage: .pre
+    script:
+        - ./dev-setup.sh --tester
+    cache:
+      key: "$CI_COMMIT_REF_NAME"
+      policy: push
+      paths:
+        - bin
+    rules:
+      - when: always
+
+index:
+    stage: validate
+    script:
+        - java -jar bin/extension-tester.jar --ci --generate-index
+        - DELTA=$(git diff --minimal -- index.json)
+        - 'if [ ! -z "$DELTA" ]; then echo "Index file is not up to date: $DELTA"; exit 1; fi'
+    cache:
+      key: "$CI_COMMIT_REF_NAME"
+      policy: pull
+      paths:
+        - bin
+    rules:
+      - when: always
+
+metadata:
+    stage: validate
+    script:
+        - 'if [ ! -z "$FILES" ]; then java -jar bin/extension-tester.jar --ci --validate-metadata "${FILES[@]}"; fi'
+    cache:
+      key: "$CI_COMMIT_REF_NAME"
+      policy: pull
+      paths:
+        - bin
+    rules:
+      - changes:
+          - "src/**/*.lua"
+
+test:
+    stage: test
+    script:
+        - 'if [ ! -z "$FILES" ]; then java -jar bin/extension-tester.jar --ci "${FILES[@]}"; fi'
+    cache:
+      key: "$CI_COMMIT_REF_NAME"
+      policy: pull
+      paths:
+        - bin
+    rules:
+      - changes:
+          - "src/**/*.lua"
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - cp -r src public/
+    - cp -r lib public/
+    - cp -r icons public/
+    - cp index.json public/
+  pages:
+    expire_in: 1 week
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "push"
