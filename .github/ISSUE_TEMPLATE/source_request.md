@@ -1,8 +1,8 @@
-<!--
-
-Make sure no one else requested the same extension.
-
--->
+---
+name: Source request
+about: Request a new site to be added as an extension
+labels: source request
+---
 
 ## URL
 
@@ -14,7 +14,7 @@ Make sure no one else requested the same extension.
 
 ## Features
 
-<!-- 
+<!--
 Fill in the different features the site has.
 
 Replace the space between each break with an 'x' to mark that the site has it.
@@ -22,7 +22,6 @@ Example:
 
 - [ ] Feature the site does not have.
 - [x] Feature the site does have.
-
 -->
 
 - [ ] Search
@@ -34,6 +33,3 @@ Example:
 ## Additional notes
 
 <!-- Enter any additional notes you feel are important. -->
-
-<!-- DO NOT REMOVE THE FOLLOWING -->
-/label ~"Source Request"

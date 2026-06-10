@@ -1,30 +1,21 @@
-name: Extension CI Samples
+name: Validate extension index
 
 on:
   push:
+    branches: [main]
   pull_request:
-  schedule:
-    - cron: '0 3 * * *'
 
 jobs:
-  samples:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Java 21
-        uses: actions/setup-java@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          distribution: temurin
-          java-version: '21'
+          python-version: '3.12'
 
-      - name: Run sample CI
-        run: bash scripts/ci_run_samples.sh
-
-      - name: Upload CI artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: ci-out
-          path: ci_out/
+      - name: Validate metadata and index.json
+        run: python scripts/generate_index.py --check

@@ -144,63 +144,43 @@
 	"libraries": [
 		{
 			"name": "247truyen",
-			"ver": "1.1.2",
-			"url": null,
-			"hash": "5497988eb28d103e8f992981e3c6ee369d6d1a8171d3719c0361d8130fd9b860"
+			"ver": "1.1.2"
 		},
 		{
 			"name": "CommonCSS",
-			"ver": "1.0.1",
-			"url": null,
-			"hash": "eb398cff152cf1ff1a7ca7ad415f55bf55aca0acefafb5363982e083de18a67d"
+			"ver": "1.0.1"
 		},
 		{
 			"name": "Madara",
-			"ver": "2.9.2",
-			"url": null,
-			"hash": "4c48a1e6530d3198d43d5a537a57965fcf9f8796e51837e7cf1d76f6ad87c879"
+			"ver": "2.9.2"
 		},
 		{
 			"name": "WWVolare",
-			"ver": "1.2.2",
-			"url": null,
-			"hash": "ae65d57adca4d64e2e1b713db84524e70b47b941d7cc58701aa8c665303bc024"
+			"ver": "1.2.2"
 		},
 		{
 			"name": "XenForo",
-			"ver": "1.0.10",
-			"url": null,
-			"hash": "a6f80230b5cdd69b742ba53a92e51f6bc0cef1a49ce2dc421f0ed0e1928371eb"
+			"ver": "1.0.10"
 		},
 		{
 			"name": "dkjson",
-			"ver": "1.0.1",
-			"url": null,
-			"hash": "97803cfe54b21695dda1e8f8a37c5933c4dc7691e5df17c2c1df6cef1203c259"
+			"ver": "1.0.1"
 		},
 		{
 			"name": "novelvault",
-			"ver": "1.0.2",
-			"url": null,
-			"hash": "260f4bf533359c7266d62a2092533dbee982ddda144546941892e8d8301d9d2d"
+			"ver": "1.0.2"
 		},
 		{
 			"name": "unhtml",
-			"ver": "1.0.1",
-			"url": null,
-			"hash": "3ecb2c80afb4903be3f6827284f3fc8914f43fe31894f94fb35d47f40c03b73f"
+			"ver": "1.0.1"
 		},
 		{
 			"name": "url",
-			"ver": "1.0.0",
-			"url": null,
-			"hash": "f34c81389a1f13b2f6c9caac7b3c098708cab8b4de27f8081812a65ead7bc51a"
+			"ver": "1.0.0"
 		},
 		{
 			"name": "utf8",
-			"ver": "1.0.0",
-			"url": null,
-			"hash": "385ac1f729ae11ec9ea60089d275e6d937857a0ee2a09291c5ce187e86966180"
+			"ver": "1.0.0"
 		}
 	],
 	"scripts": [
@@ -208,66 +188,66 @@
 			"id": 1,
 			"name": "NovelFull",
 			"fileName": "NovelFull",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/NovelFull.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/NovelFull.png",
 			"lang": "en",
 			"ver": "3.0.1",
 			"libVer": "1.0.0",
-			"md5": "dce25cabb03979607acc13b46fd466fa3437492f3ecf6cd1b505ea6717bdde6f",
+			"md5": "f8f6f3fb1df8cd75a6d4d899bdf9cf6d",
 			"type": "LuaScript"
 		},
 		{
 			"id": 2,
 			"name": "NovLove (Boxnovel)",
 			"fileName": "NovLove",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/NovLove.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/NovLove.png",
 			"lang": "en",
 			"ver": "4.2.0",
 			"libVer": "1.0.0",
-			"md5": "a9995c74ef32e78a9c155269ef799230825d62baa67b1ccf0fb7fbb2d5350198",
+			"md5": "de3fbda09bf0d6912e170ce239f69da6",
 			"type": "LuaScript"
 		},
 		{
 			"id": 3,
 			"name": "Syosetsu",
 			"fileName": "Syosetsu",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/Syosetsu.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/Syosetsu.png",
 			"lang": "ja",
 			"ver": "2.2.5",
 			"libVer": "1.0.0",
-			"md5": "b8e92ca759d7d553f99b4c61bc6531efc912d2ca57eb9b21f2e2bafb46c0e917",
+			"md5": "e89c26176c2b58e704ed645ecd6f4bfc",
 			"type": "LuaScript"
 		},
 		{
 			"id": 70,
 			"name": "Rulate",
 			"fileName": "Rulate",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/Rulate.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/Rulate.png",
 			"lang": "ru",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "65473a3886015b516df2f3d8d9b4f76b748bfffe130d5193c68be1c0ae2e5bf3",
+			"md5": "bd67fb6e9ba5659b7f49c58e81d70c6d",
 			"type": "LuaScript"
 		},
 		{
 			"id": 71,
 			"name": "РанобэРФ",
 			"fileName": "Ranoberf",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/Ranoberf.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/Ranoberf.png",
 			"lang": "ru",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "214268228e61ced99b2e2e0e5710a5fad320d31842350ed4f66522ab5b482dfc",
+			"md5": "f686f340f350f23da2db0a37ab51b4da",
 			"type": "LuaScript"
 		},
 		{
 			"id": 72,
 			"name": "Ranobehub",
 			"fileName": "Ranobehub",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/Ranobehub.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/Ranobehub.png",
 			"lang": "ru",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "154a330158d3a6b16cae32fd30b8f5873e8602f9d69d0c0f7b7a18d96c407541",
+			"md5": "29497aa62a21fc8823b65ca72cf172e6",
 			"type": "LuaScript"
 		},
 		{
@@ -278,7 +258,7 @@
 			"lang": "ru",
 			"ver": "2.0.1",
 			"libVer": "1.0.0",
-			"md5": "73226f8520aa3c1a3ed2469f43a86ba8f5af47828b9578f6a4f2ea81995a441f",
+			"md5": "46cdcfbb82f97a610cc570019ffb25b7",
 			"type": "LuaScript"
 		},
 		{
@@ -289,7 +269,7 @@
 			"lang": "ru",
 			"ver": "1.0.3",
 			"libVer": "1.0.0",
-			"md5": "e8cdcd64e67b319721f623348967404557aa49a846d1627b6e63051260b3101f",
+			"md5": "a01e2e3b0c5166762d68e25e189a1c68",
 			"type": "LuaScript"
 		},
 		{
@@ -300,7 +280,7 @@
 			"lang": "en",
 			"ver": "1.0.6",
 			"libVer": "1.0.0",
-			"md5": "c075cacf8d584dd8bce32d7e13fb37e4f0a7e25c3f2e8b29aa78efc6814df764",
+			"md5": "43fb59e822007ebc0f2a210dd18c12f3",
 			"type": "LuaScript"
 		},
 		{
@@ -311,7 +291,7 @@
 			"lang": "en",
 			"ver": "1.0.5",
 			"libVer": "1.0.0",
-			"md5": "3cabc7481a5a630e4a890cc0b399db20be8ba819d85f56f4ff06cdc4dffe19e9",
+			"md5": "dd7b7d08855cbbc97d0c74571450df74",
 			"type": "LuaScript"
 		},
 		{
@@ -322,40 +302,40 @@
 			"lang": "en",
 			"ver": "1.1.0",
 			"libVer": "1.0.0",
-			"md5": "50fe588f1bdc033cb8ba90efe324b0c63a7b27bc87e2190d9a3071d6d82ad9cf",
+			"md5": "2ee3295f338248d82c910fa96eb1201c",
 			"type": "LuaScript"
 		},
 		{
 			"id": 173,
 			"name": "Foxaholic",
 			"fileName": "Foxaholic",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/Foxaholic.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/Foxaholic.png",
 			"lang": "en",
 			"ver": "2.1.4",
 			"libVer": "1.0.0",
-			"md5": "43485a29f4bee9d49363b1b87b3603bf14c5467ad478cac857b50a2054395bac",
+			"md5": "e6ebb590be02d9dd4cdc3807565df146",
 			"type": "LuaScript"
 		},
 		{
 			"id": 573,
 			"name": "MTLNovel",
 			"fileName": "MTLNovel",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/MTLNovel.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/MTLNovel.png",
 			"lang": "en",
 			"ver": "2.1.1",
 			"libVer": "1.0.0",
-			"md5": "b2c29d4673a24fa9a951f5d91bd41b997aea7343b5185f972d638375c18001b5",
+			"md5": "a5d2e5769911f97dd45709186e90041b",
 			"type": "LuaScript"
 		},
 		{
 			"id": 701,
 			"name": "Renovels",
 			"fileName": "Renovels",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/Renovels.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/Renovels.png",
 			"lang": "ru",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "ae3728bf293fc0b46ac79e758063c0526ffa8642ef60afd4d2923bbcf0186d46",
+			"md5": "f209642a89a82dcd338f8029f7a14d75",
 			"type": "LuaScript"
 		},
 		{
@@ -366,7 +346,7 @@
 			"lang": "ru",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "75c87c703af996f279a4d65a7aecdb3ff647346b795b34660d7afbe71cdd9299",
+			"md5": "0469e3dfef7421f10ade9f3909e1a956",
 			"type": "LuaScript"
 		},
 		{
@@ -377,7 +357,7 @@
 			"lang": "ru",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "8da5f4345003a54faf477f0a230e078f2103d16063624e969c42b9fb1e056073",
+			"md5": "b1d6d94fcc2036d6eed09c5e8d8259b3",
 			"type": "LuaScript"
 		},
 		{
@@ -388,7 +368,7 @@
 			"lang": "ru",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "9a34034f35df060ff4df0fffa0382619a5c9a733dc620241efc5f288f7ea2783",
+			"md5": "7077abc77a924fb451f76a5828ce90f7",
 			"type": "LuaScript"
 		},
 		{
@@ -399,40 +379,40 @@
 			"lang": "ru",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "2ac2cfe12c68c6ccdcd249ff41c895ddab5c3c99df8a44c57217bc79f9b6b2b7",
+			"md5": "fcf5da11067a06357c25b86900283601",
 			"type": "LuaScript"
 		},
 		{
 			"id": 762,
 			"name": "Light Novel Bastion",
 			"fileName": "LightNovelBastion",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/LightNovelBastion.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/LightNovelBastion.png",
 			"lang": "en",
 			"ver": "2.1.1",
 			"libVer": "1.0.0",
-			"md5": "cde790540810d18e27f14ccb9379090f42dab78a79c364ba042ca992b022ac5c",
+			"md5": "33275ba7dfa6a70313c94d480dc27395",
 			"type": "LuaScript"
 		},
 		{
 			"id": 911,
 			"name": "Creative Novels",
 			"fileName": "CreativeNovels",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/CreativeNovels.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/CreativeNovels.png",
 			"lang": "en",
 			"ver": "2.1.0",
 			"libVer": "1.0.0",
-			"md5": "d237ba38ea4cea232d30f8a91530732b4152199f653dd78bd43c889039b1b4a6",
+			"md5": "dee88643450274ae7c5700885b1dee8c",
 			"type": "LuaScript"
 		},
 		{
 			"id": 951,
 			"name": "Asian Hobbyist",
 			"fileName": "AsianHobbyist",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/AsianHobbyist.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/AsianHobbyist.png",
 			"lang": "en",
 			"ver": "2.0.6",
 			"libVer": "1.0.0",
-			"md5": "67801ba61851096fb886b3d719141c542f00cf7b88e1ef5d645e2981f1754be8",
+			"md5": "90dcf8f8c43709e3e6572ca869a9b038",
 			"type": "LuaScript"
 		},
 		{
@@ -443,84 +423,84 @@
 			"lang": "en",
 			"ver": "1.0.7",
 			"libVer": "1.0.0",
-			"md5": "befe3839a75646023cb1f4002c5c42424a8de5ecf891e113fd1ca50ca2243b17",
+			"md5": "d7fdd0ee85a93a03424019e436827f99",
 			"type": "LuaScript"
 		},
 		{
 			"id": 2925,
 			"name": "Light Novel Heaven",
 			"fileName": "LightNovelHeaven",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/LightNovelHeaven.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/LightNovelHeaven.png",
 			"lang": "en",
 			"ver": "2.1.0",
 			"libVer": "1.0.0",
-			"md5": "e872b449990910bfe310a3a7345e5fe08b6ebb995ccd296b37228a603ca2a789",
+			"md5": "d63a8cd6982d84378da62d190e15c060",
 			"type": "LuaScript"
 		},
 		{
 			"id": 3302,
 			"name": "Rewayat Club - نادي الروايات",
 			"fileName": "RewayatClub",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/RewayatClub.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/RewayatClub.png",
 			"lang": "ar",
 			"ver": "1.0.2",
 			"libVer": "1.0.0",
-			"md5": "76c0e2864767bbedd48e9b82401e1734d1e09a98a61f6936bd47114016708989",
+			"md5": "1dea79144ca01e02c1660e00ea2a75b8",
 			"type": "LuaScript"
 		},
 		{
 			"id": 4222,
 			"name": "Sleepy Translations",
 			"fileName": "SleepyTranslations",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/SleepyTranslations.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/SleepyTranslations.png",
 			"lang": "en",
 			"ver": "1.0.3",
 			"libVer": "1.0.0",
-			"md5": "bb069747359411a3c206b6c8012c1d6f82e281d26d47ef79c7b0cfa155c2481c",
+			"md5": "504cbdf960019058004e5ef31bf5499e",
 			"type": "LuaScript"
 		},
 		{
 			"id": 4300,
 			"name": "Rain of Snow Translations",
 			"fileName": "RainOfSnow",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/RainOfSnow.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/RainOfSnow.png",
 			"lang": "en",
 			"ver": "1.1.2",
 			"libVer": "1.0.0",
-			"md5": "e5b8664489e991fb262280f28b871da9c553b474d6df701613c2917ebd91793e",
+			"md5": "43eb11756e1dd8ca4ba38c524ea2b25c",
 			"type": "LuaScript"
 		},
 		{
 			"id": 4302,
 			"name": "Travis Translations",
 			"fileName": "TravisTranslations",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/TravisTranslations.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/TravisTranslations.png",
 			"lang": "en",
 			"ver": "1.0.16",
 			"libVer": "1.0.0",
-			"md5": "8b1c890791563c3a9a18f66314edd34837c2fb771ec05489400c4bdb978b7260",
+			"md5": "448ec7ad3649fbf986fadeaace239bb0",
 			"type": "LuaScript"
 		},
 		{
 			"id": 4500,
 			"name": "ArNovel",
 			"fileName": "ArNovel",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/ArNovel.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/ArNovel.png",
 			"lang": "ar",
 			"ver": "1.0.6",
 			"libVer": "1.0.0",
-			"md5": "87a4cc02773ac0155888e5f0407efca871472ebf47bf721454467462f7fc6eef",
+			"md5": "d3fcd35dc8fb3b3caa9f6fedc706c6d1",
 			"type": "LuaScript"
 		},
 		{
 			"id": 4501,
 			"name": "Team X Novel",
 			"fileName": "TeamXNovel",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/TeamXNovel.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/TeamXNovel.png",
 			"lang": "ar",
 			"ver": "1.0.5",
 			"libVer": "1.0.0",
-			"md5": "657fef5b3ea4346dc350137bb0a1174cb9aa7352fb7e96b3d5f8845dc2d02e96",
+			"md5": "55fadbb9182fe68d3ff9e68ccd7e1d4a",
 			"type": "LuaScript"
 		},
 		{
@@ -531,29 +511,29 @@
 			"lang": "en",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "a0ff91395f8c843ef63d45c0e8fe725a22edb8624fb974acb083b01ab32e6e65",
+			"md5": "458d8a32085aaae2a6e2415551bed755",
 			"type": "LuaScript"
 		},
 		{
 			"id": 36833,
 			"name": "RoyalRoad",
 			"fileName": "RoyalRoad",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/RoyalRoad.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/RoyalRoad.png",
 			"lang": "en",
 			"ver": "1.0.17",
 			"libVer": "1.0.0",
-			"md5": "738e5967a500d059308a1489df9efef775fe840cf9397515d90ed8b1c9fbddef",
+			"md5": "0c535f3af8cbff7c1e70a1eb48382e53",
 			"type": "LuaScript"
 		},
 		{
 			"id": 86802,
 			"name": "ScribbleHub",
 			"fileName": "ScribbleHub",
-			"imageURL": "https://github.com/shosetsuorg/extensions/raw/dev/icons/ScribbleHub.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/ScribbleHub.png",
 			"lang": "en",
 			"ver": "1.0.6",
 			"libVer": "1.0.0",
-			"md5": "a7573e3805be23914e4a8692ee9d32c6188599393783ac0e25f8fe040881491d",
+			"md5": "956ef952187c120d8708ff9b639de30d",
 			"type": "LuaScript"
 		},
 		{
@@ -564,7 +544,7 @@
 			"lang": "all",
 			"ver": "1.0.4",
 			"libVer": "1.0.0",
-			"md5": "f118dc4896092f1ca2fed7d3017c226c1e3655c9e769bede718c24e2196e85ab",
+			"md5": "50e7ff45cc3862dcbb449f96dc6e9020",
 			"type": "LuaScript"
 		},
 		{
@@ -575,7 +555,7 @@
 			"lang": "en",
 			"ver": "1.0.7",
 			"libVer": "1.0.0",
-			"md5": "62a82f610bbb175bd43bdda878b6bccb556a78d82211a9fc84a64c36f76de42c",
+			"md5": "11138ee77555fb90507ad19c9eda378e",
 			"type": "LuaScript"
 		},
 		{
@@ -586,29 +566,29 @@
 			"lang": "en",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "b4cc9379566fe90c78f8ff3f7ea1aec1f56e08f3e6ec448942479967267234f5",
+			"md5": "1e265461de3d3adcee230665b324e435",
 			"type": "LuaScript"
 		},
 		{
 			"id": 95562,
 			"name": "Read From Net",
 			"fileName": "ReadFromNet",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/ReadFromNet.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/ReadFromNet.png",
 			"lang": "en",
 			"ver": "1.1.1",
 			"libVer": "1.0.0",
-			"md5": "db9fa6fb6e1bbe9b048ba00d23554387c421ab07a095397841c7530a179e852d",
+			"md5": "b0b6c9f2324888acd19157fa577d5898",
 			"type": "LuaScript"
 		},
 		{
 			"id": 95564,
 			"name": "NovelBin",
 			"fileName": "NovelBin",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/NovelBin.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/NovelBin.png",
 			"lang": "en",
 			"ver": "2.0.10",
 			"libVer": "1.0.0",
-			"md5": "4b3471dc089e7df31bc005ba76ca094024373c979e8081610db2791571395efc",
+			"md5": "f459d42f877568cdadcfb3cb9bce27ec",
 			"type": "LuaScript"
 		},
 		{
@@ -619,7 +599,7 @@
 			"lang": "en",
 			"ver": "1.0.3",
 			"libVer": "1.0.0",
-			"md5": "4a87811baeb63c7bbb3b3afa7b43be9fe5671c5b5a0b37e0410380506a917319",
+			"md5": "caa9ce0b72bc00d6ce07548573ba3700",
 			"type": "LuaScript"
 		},
 		{
@@ -630,18 +610,18 @@
 			"lang": "en",
 			"ver": "1.0.2",
 			"libVer": "1.0.0",
-			"md5": "78b11d92b4f15bd936589a68bc40946d63480bbef538466d827c08c2db64e117",
+			"md5": "f103e7882f41afa568c90c606cfe295a",
 			"type": "LuaScript"
 		},
 		{
 			"id": 95570,
 			"name": "NovelHall",
 			"fileName": "NovelHall",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/NovelHall.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/NovelHall.png",
 			"lang": "en",
 			"ver": "1.1.0",
 			"libVer": "1.0.0",
-			"md5": "4f996ebb3e5be39e8061d97164eb46410e2280783e5c8d2f1ee55601ff604664",
+			"md5": "8ae05db91f3a093aab16efc6de3270c9",
 			"type": "LuaScript"
 		},
 		{
@@ -652,7 +632,18 @@
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "88581a8d74fa6637ff9c8947e04ad667638dc95db5573421d6a5e40183ca022e",
+			"md5": "589ded5cca71e9b4d2ec2c594e1e59ca",
+			"type": "LuaScript"
+		},
+		{
+			"id": 95810,
+			"name": "Archive of Our Own",
+			"fileName": "AO3",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/AO3.png",
+			"lang": "en",
+			"ver": "1.1.0",
+			"libVer": "1.0.0",
+			"md5": "29e2dbf86bf334dc9d8abf562c28e951",
 			"type": "LuaScript"
 		},
 		{
@@ -663,7 +654,7 @@
 			"lang": "en",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "0d8f1c07011c0badbd4fa61ab5c2528b773dfadb5bccf021456f31c5a0b16142",
+			"md5": "b1ba3ca555c9c6d10639bb27b02640bd",
 			"type": "LuaScript"
 		},
 		{
@@ -674,7 +665,7 @@
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "86fa82262dc43e5a20e4b3350e7d0f3f060c9a27b3af890fa597eb90c877d123",
+			"md5": "5ecd4f71c12bab8521fe614f4410da1a",
 			"type": "LuaScript"
 		},
 		{
@@ -685,29 +676,29 @@
 			"lang": "en",
 			"ver": "1.0.6",
 			"libVer": "1.0.0",
-			"md5": "4afcbe8e987cf1553b4337b93d2041f9822c62a8c3ae1984786fad20f351d1a0",
+			"md5": "4868fec60754dec68945cba7b287826e",
 			"type": "LuaScript"
 		},
 		{
 			"id": 111359,
 			"name": "Novgo (NET)",
 			"fileName": "NovgoNET",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/NovgoNET.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/NovgoNET.png",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "586a8b532e9bc3f8b9b1a3a24201cd6ceca5bfa19c9137d070ea903c7a0cdbbe",
+			"md5": "8449e9f06a15fe94151ed4f3702493d5",
 			"type": "LuaScript"
 		},
 		{
 			"id": 171264,
 			"name": "Read Novel Full",
 			"fileName": "ReadNovelFull",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/ReadNovelFull.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/ReadNovelFull.png",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "e9e57e442e1d7091d0c232d8060038604c5f4ab5781027ff8b77d1ddf63ee393",
+			"md5": "e0dc5f0da18eede1d9e72031223041cc",
 			"type": "LuaScript"
 		},
 		{
@@ -718,7 +709,7 @@
 			"lang": "pt",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "846a54314e362941370abc765c90e7cc0211da9ad9c6a324ab4590c06533cebf",
+			"md5": "ea7b0418b2888810941f31900dc10690",
 			"type": "LuaScript"
 		},
 		{
@@ -729,7 +720,7 @@
 			"lang": "pt",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "b5458fd5dd94df55e3e64d188611f8c76aaa18bcf87138e520d7597cdead7c09",
+			"md5": "344b6cb5facd7ac5a6334f5812e33991",
 			"type": "LuaScript"
 		},
 		{
@@ -740,7 +731,7 @@
 			"lang": "pt",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "2576599bbec699414fcbf4af50335cd905ddd3f6d27aa1ab6bdf13b4cf4999b4",
+			"md5": "7d74352a87686ca69d6d201dfa23501c",
 			"type": "LuaScript"
 		},
 		{
@@ -751,18 +742,18 @@
 			"lang": "pt",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "466767b50c492c4adad30974feaeabb27e4602ad7490ae82a5643cb4b0c66207",
+			"md5": "277c8ea771bd7f8097b2b7ccf086597c",
 			"type": "LuaScript"
 		},
 		{
 			"id": 174133,
 			"name": "Light Novel Plus",
 			"fileName": "LightNovelPlus",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/LightNovelPlus.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/LightNovelPlus.png",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "14093e9e64b4031f0091200dcdd44ae9102bb8e711020c34d3411d3754b431f6",
+			"md5": "3e659a5f86498b1e1652ee1d70da231b",
 			"type": "LuaScript"
 		},
 		{
@@ -773,18 +764,18 @@
 			"lang": "pt",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "8ac8710efc9a70a74cbe70d38f9a392c270a2b7035a8574737922a48dfa120df",
+			"md5": "b84196011866e2921da4f093527d97a4",
 			"type": "LuaScript"
 		},
 		{
 			"id": 233218,
 			"name": "All Novel Full",
 			"fileName": "AllNovelFull",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/AllNovelFull.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/AllNovelFull.png",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "e60a7048af1e82e68fef953b8a2351ac91ac30a5e7e26de3361ce7a4b366ecae",
+			"md5": "d4da64d1525ef5ef4cbec9f2ed573e3b",
 			"type": "LuaScript"
 		},
 		{
@@ -795,29 +786,29 @@
 			"lang": "pt",
 			"ver": "2.0.0",
 			"libVer": "1.0.0",
-			"md5": "dd9ec0ae5774786bc07e965dcf339da0d04e93f09022c45f18dc8ee4e2614798",
+			"md5": "1f7a6a5ba051f6e7d81d7479461ca891",
 			"type": "LuaScript"
 		},
 		{
 			"id": 273754,
 			"name": "AllNovel",
 			"fileName": "AllNovel",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/AllNovel.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/AllNovel.png",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "942ff2475a9d2321591fd6b9fc8189a4ae06d2acffa1dc37c7769ec19e73255f",
+			"md5": "f70dd5f742e36546de3fa8972323c76e",
 			"type": "LuaScript"
 		},
 		{
 			"id": 325107,
 			"name": "Free Web Novel",
 			"fileName": "FreeWebNovel",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/FreeWebNovel.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/FreeWebNovel.png",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "72087150e5bf168afc243f49e49424c27b2535d6941d7a402300b7f3293c1d7b",
+			"md5": "0693372599580d1070b8dd904255156e",
 			"type": "LuaScript"
 		},
 		{
@@ -828,7 +819,7 @@
 			"lang": "en",
 			"ver": "1.0.1",
 			"libVer": "1.0.0",
-			"md5": "a7fd369e20034315166db8ac593cbd9f89aaede2e86841c8e016e47a4b6e73e0",
+			"md5": "24067e32cfff315fbc8653bd6034a8a6",
 			"type": "LuaScript"
 		},
 		{
@@ -839,40 +830,40 @@
 			"lang": "ind",
 			"ver": "1.1.0",
 			"libVer": "1.0.0",
-			"md5": "3a8e17bac58441743917b846322baf298243a5e491ad44c6cd9b96d3e37ce1bb",
+			"md5": "92a82cd0ac81b01b9d41002c2abef6bd",
 			"type": "LuaScript"
 		},
 		{
 			"id": 951840,
 			"name": "NovelFull (NET)",
 			"fileName": "NovelFullNET",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/NovelFullNET.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/NovelFullNET.png",
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "ddf386b1a0d1ee2956a424947a887559f700256adb11202ef07f00a2d7a3e441",
+			"md5": "e7a3f80a82d6040498af073507964b50",
 			"type": "LuaScript"
 		},
 		{
 			"id": 28505740,
 			"name": "NOVA",
 			"fileName": "NOVA",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/NOVA.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/NOVA.png",
 			"lang": "es",
 			"ver": "1.2.5",
 			"libVer": "1.0.0",
-			"md5": "69bff757274e4fdac0ef0084ff31d6e870f45695c9a0b2d8aa53354ec289948b",
+			"md5": "10686a93a5c473e7f81306e78a67ba62",
 			"type": "LuaScript"
 		},
 		{
 			"id": 1241865462,
 			"name": "Sufficient Velocity",
 			"fileName": "SufficientVelocity",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/SufficientVelocity.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/SufficientVelocity.png",
 			"lang": "en",
 			"ver": "1.1.2",
 			"libVer": "1.0.0",
-			"md5": "4723b977049e25f002362add93e01e9ac13809a897b6a502ac006fe606f28436",
+			"md5": "d8efd704a9b84983c8f7025fafd9cff1",
 			"type": "LuaScript"
 		},
 		{
@@ -883,43 +874,42 @@
 			"lang": "en",
 			"ver": "1.0.0",
 			"libVer": "1.0.0",
-			"md5": "f9322e03c9a0be0d23e45b207dab241fdd0f5c50dc7035d9a0902aa52adb1f46",
+			"md5": "084e37e0f2dd0d72aad367009be93178",
 			"type": "LuaScript"
 		},
 		{
 			"id": 1403038472,
 			"name": "SpaceBattles",
 			"fileName": "SpaceBattles",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/SpaceBattles.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/SpaceBattles.png",
 			"lang": "en",
 			"ver": "1.1.2",
 			"libVer": "1.0.0",
-			"md5": "65d46daa0f8110e3939661ccc4ff4dd2fea77574ae184dce0e12c6045165c534",
+			"md5": "c2909cf810a12a78dca031bd8f18252b",
 			"type": "LuaScript"
 		},
 		{
 			"id": 1915581632,
 			"name": "Questionable Questing",
 			"fileName": "QuestionableQuesting",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/QuestionableQuesting.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/QuestionableQuesting.png",
 			"lang": "en",
 			"ver": "1.1.1",
 			"libVer": "1.0.0",
-			"md5": "d07aa275252027de55467151dc749708d762e2f76308807522159f86dbad26d6",
+			"md5": "c5602b5190432715ab7244ba868a27e3",
 			"type": "LuaScript"
 		},
 		{
 			"id": 1915581930,
 			"name": "Xiaowaz",
 			"fileName": "Xiaowaz",
-			"imageURL": "https://shosetsuorg.gitlab.io/extensions/icons/Xiaowaz.png",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/Xiaowaz.png",
 			"lang": "fr",
 			"ver": "1.1.0",
 			"libVer": "1.0.0",
-			"md5": "730201cdd3b687f0d4a3227dc0286e63e96bd283f1e92dbcd36198e0796a5e7c",
+			"md5": "20cb0a355f5bf880939220084bc3f1d2",
 			"type": "LuaScript"
 		}
 	],
-	"styles": [],
-	"js": []
+	"styles": []
 }

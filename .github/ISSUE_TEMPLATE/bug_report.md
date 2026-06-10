@@ -1,12 +1,12 @@
-<!--
+---
+name: Bug report
+about: Report a broken or misbehaving extension
+labels: bug
+---
 
-Make sure no one else has the same issue!
+## Affected Extension
 
--->
-
-## Effected Extension
-
-<!-- Which extension(s) is effected by this bug. -->
+<!-- Which extension(s) is affected by this bug. -->
 
 ## Describe the bug
 
@@ -14,14 +14,14 @@ Make sure no one else has the same issue!
 
 ## To Reproduce
 
-<--
+<!--
 Steps to reproduce the behavior:
 
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
-   -->
+-->
 
 ## Expected behavior
 
@@ -33,12 +33,9 @@ Steps to reproduce the behavior:
 
 ## Version (please complete the following information):
 
-- Application Version: [e.g. v2.0.0/vr2999]
+- Application Version: [e.g. v2.0.0]
 - Extension Version: [e.g. v1.0.0]
 
 ## Additional notes
 
 <!-- Add any other notes about the problem here. -->
-
-<!-- DO NOT REMOVE THE FOLLOWING -->
-/label ~bug

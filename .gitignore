@@ -16,3 +16,8 @@ node_modules/
 
 # Errors text file from extension tester
 errors.txt
+
+# Downloaded tooling and CI output
+bin/
+ci_out/
+__pycache__/

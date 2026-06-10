@@ -1,63 +1,80 @@
-# Extensions - Universe
+# Monogatari Extension Library
 
-Community extensions for Shosetsu
+Extension repository for the **Monogatari** app. It hosts Lua extensions
+(novel sources), shared Lua libraries and icons, plus the `index.json` the
+app reads to list, install and update extensions.
 
-## Bug Reports
+## Using this repository in the app
 
-1. Ensure there are no issues for the same bug [here][issues].
-2. Click [this link][bug-report] to create a new bug report.
-3. Fill out the title with a very brief abstract summary of the issue.
-4. Fill out the fields in the description.
-5. Submit and wait.
+Add the following URL as a repository in the Monogatari app
+(*More → Repositories → Add*):
 
-## Source requests
+```
+https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main
+```
 
-1. Ensure there are no requests for the same site [here][issues].
-2. Click [this link][source-request] to create a new source request.
-3. Fill out the title with the site name.
-4. Fill out the fields in the description.
-5. Submit and wait.
+> **Note:** The GitHub repository must be **public**, otherwise the app
+> receives `404` for every file.
+
+## How it works
+
+The app fetches files using these URL patterns:
+
+| File | URL |
+|---|---|
+| Index | `{repoURL}/index.json` |
+| Extension | `{repoURL}/src/{lang}/{fileName}.lua` |
+| Library | `{repoURL}/lib/{name}.lua` |
+
+`index.json` lists every extension (`scripts`) and shared library
+(`libraries`). It is generated — **never edit it by hand**.
+
+Every `.lua` file must start with a JSON metadata comment on line 1:
+
+```lua
+-- {"id":12345,"ver":"1.0.0","libVer":"1.0.0","author":"YourName"}
+```
+
+- `id` must be unique across all extensions and must never change.
+- Bump `ver` whenever you change an extension, otherwise the app will not
+  pick up the update.
 
 ## Development
 
-A very generic how to:
+1. Add or edit an extension under `src/{lang}/` (use an existing extension
+   as a template, e.g. [AO3.lua](src/en/AO3.lua)). Optionally add an icon
+   under `icons/{fileName}.png`.
+2. Regenerate the index:
 
-1. Fork this repository
-2. Create a local clone of the repository on your pc
-3. Choose what site you want to develop from, either from [issues][issues] or
-   of your own choosing
-4. Create a new branch on your local repository, following the naming scheme `impl-thisisaname.domain`
-5. Run `./dev-setup.sh` to install documentation from the latest kotlin-lib (on Windows, you may need to have [Git Bash][git-bash] installed to run this script)
-6. Start to develop the extension
-   - You can use the following templates
-     - [Lua Extension][lua-template]
-   - Take a look at `./test-server.sh`. It should make testing a lot easier.
-7. Ensure the index is updated with the new extension (this is done automatically if you use `./test-server.sh`, otherwise you can run `java -jar bin/extension-tester.jar --generate-index`)
-8. Make a PR of that branch into master
+   ```
+   py scripts/generate_index.py
+   ```
 
-### Commit Message style
+3. Test locally against the app: run
 
-If you have the time and ability, I recommend following the [Conventional Commits][cc] standard.
+   ```
+   py scripts/serve.py
+   ```
 
-Here are some sample commit headers:
+   and add the printed `http://<pc-ip>:8000` URL as a repository in the app
+   (phone and PC must be on the same network).
+4. Commit and push. CI validates the metadata and checks that `index.json`
+   is up to date (`scripts/generate_index.py --check`).
 
-1. `feat: Add site.url`
-2. `feat(extension-file-name): Add new filters`
-3. `fix(extension-file-name): Resolve novel parsing bug`
-4. `misc(extension-file-name): Update extension icon`
-5. `fix(index): Correct extension-file-name data`
+### Optional: official Shosetsu tooling
 
-### Icon creation
+The extensions use the Shosetsu Lua API (kotlin-lib). For API documentation
+and a full extension test harness (requires Java 21 and Git Bash on
+Windows):
 
-Unique Icons can be created for each extension. 
-Following the above steps, but at step 5, develop the icon!
+- `./dev-setup.sh` — downloads `_doc.lua` (API documentation) and
+  `bin/extension-tester.jar`
+- `./test-server.sh` — runs the extension tester with index generation and
+  a local HTTP server
 
-Please ensure the source of the icons are present, so they can be edited later on. 
+## Credits
 
-[lua-template]: https://gitlab.com/shosetsuorg/kotlin-lib/-/raw/main/templates/extension-template.lua
-[js-template]:https://gitlab.com/shosetsuorg/kotlin-lib/-/raw/main/templates/extension-template.js
-[source-request]: https://gitlab.com/shosetsuorg/extensions/-/issues/new?issuable_template=source_request
-[bug-report]: https://gitlab.com/shosetsuorg/extensions/-/issues/new?issuable_template=bug_report
-[issues]: https://gitlab.com/shosetsuorg/extensions/-/issues
-[cc]: https://www.conventionalcommits.org/en/v1.0.0/
-[git-bash]: https://git-scm.com/downloads/win
+Most extensions originate from the community-maintained
+[shosetsu extensions "Universe" repository](https://gitlab.com/shosetsuorg/extensions)
+(GPL-3.0). See the `authors` section of [index.json](index.json) for the
+original authors. License: [GPL-3.0](LICENSE).
