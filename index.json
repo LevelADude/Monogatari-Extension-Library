@@ -812,6 +812,17 @@
 			"type": "LuaScript"
 		},
 		{
+			"id": 325240,
+			"name": "FireNet",
+			"fileName": "FireNet",
+			"imageURL": "https://raw.githubusercontent.com/LevelADude/Monogatari-Extension-Library/main/icons/FireNet.png",
+			"lang": "en",
+			"ver": "1.0.0",
+			"libVer": "1.0.0",
+			"md5": "e667704ba8173b3752e7cbe1de9ecef0",
+			"type": "LuaScript"
+		},
+		{
 			"id": 428270,
 			"name": "Zetro Translations",
 			"fileName": "ZetroTranslation",
